@@ -1,0 +1,18 @@
+.bg-redpink {
+    background-color: #fda7a8;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#second {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.third, #fourth {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: #85fd86;
+    font-weight: bold;
+}
