@@ -44,6 +44,14 @@
   background-color: #C50208;
   grid-row: 2 / 4;
   grid-column: 1 / 2;
+
+  display: grid;
+  gap: 50px;
+}
+
+.sidebar .photo,
+.sidebar .side-content {
+  align-content: center; /* TODO: I'm not super sure why this works */
 }
 
 .sidebar .photo {
@@ -60,6 +68,7 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+
 }
 
 .nav {
