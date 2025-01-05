@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .container {
   text-align: center;
 
@@ -28,6 +32,10 @@
 
   display: grid;
   grid-template: 1fr / 1fr 1fr;
+}
+
+.header .menu {
+  align-content: center;
 }
 
 .header .menu ul {
